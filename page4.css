@@ -1,0 +1,301 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 992px;
+  height: 625px;
+  margin: 0 auto;
+}
+.flex-row {
+  position: relative;
+  width: 743px;
+  height: 63px;
+  margin: 17px 0 0 137px;
+  z-index: 14;
+}
+.rectangle {
+  position: absolute;
+  width: 743px;
+  height: 63px;
+  top: 0;
+  left: 0;
+  background: #0f1212;
+  opacity: 0.9;
+  z-index: 9;
+  border-radius: 90px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.skills {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 91px;
+  height: 41px;
+  top: 14px;
+  left: 294px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 11;
+}
+.contact-me {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 124px;
+  height: 41px;
+  top: 15px;
+  left: 37px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 12;
+}
+.certificates-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 95px;
+  height: 34px;
+  top: 15px;
+  left: 182px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 14;
+  mix-blend-mode: overlay;
+}
+.projects {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 94px;
+  height: 34px;
+  top: 15px;
+  left: 417px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 13;
+}
+.home-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 184px;
+  height: 26px;
+  top: 16px;
+  left: 542px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 10;
+}
+.text-box {
+  position: relative;
+  width: 877px;
+  height: 483px;
+  margin: 40px 0 0 84px;
+  background: rgba(22, 21, 18, 0.51);
+  z-index: 1;
+}
+.certificate {
+  position: absolute;
+  width: 99px;
+  height: 103px;
+  top: 0;
+  left: 770px;
+  background: url(./assets4/images/36f05287c31286a3b01318145bf68c0b273228d0.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+}
+.certificates-section {
+  position: absolute;
+  width: 337px;
+  height: 399px;
+  top: 33px;
+  left: 409px;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: right;
+  z-index: 2;
+}
+.certificates-2 {
+  position: relative;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: right;
+}
+.certificate-details {
+  position: relative;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: right;
+}
+.certificates-section-3 {
+  position: absolute;
+  width: 337px;
+  height: 399px;
+  top: 33px;
+  left: 409px;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: right;
+  z-index: 3;
+}
+.certificates-4 {
+  position: relative;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: right;
+}
+.course-introduction {
+  position: relative;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: right;
+}
+.cyber-security {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 293px;
+  height: 52px;
+  top: 78px;
+  left: 28px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: right;
+  z-index: 6;
+}
+.click-here {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 105px;
+  height: 63px;
+  top: 137px;
+  left: 521px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: right;
+  text-decoration: underline;
+  z-index: 5;
+}
+.click-here-5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 101px;
+  height: 55px;
+  top: 144px;
+  left: 122px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: underline;
+  z-index: 8;
+}
+.click-here-6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 168px;
+  height: 78px;
+  top: 269px;
+  left: 500px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: underline;
+  z-index: 7;
+}
+.background {
+  position: fixed; 
+  width: 100%;     
+  height: 100%; 
+  top: 0;
+  left: 0;
+  background: url(./assets4/images/0e5ac07c2b7aa7928fe0ff017084825197aca000.png)
+    no-repeat center;
+  background-size: cover;
+}

@@ -1,0 +1,260 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 992px;
+  height: 625px;
+  margin: 0 auto;
+}
+.flex-row-bf {
+  position: relative;
+  width: 743px;
+  height: 63px;
+  margin: 17px 0 0 137px;
+  z-index: 12;
+}
+.rectangle {
+  position: absolute;
+  width: 743px;
+  height: 63px;
+  top: 0;
+  left: 0;
+  background: #0f1212;
+  opacity: 0.9;
+  z-index: 7;
+  border-radius: 90px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.skills {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 91px;
+  height: 41px;
+  top: 14px;
+  left: 294px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 9;
+}
+.contact-me {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 124px;
+  height: 41px;
+  top: 15px;
+  left: 37px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 10;
+  mix-blend-mode: overlay;
+}
+.my-certificates {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 95px;
+  height: 34px;
+  top: 15px;
+  left: 182px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 12;
+}
+.my-projects {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 94px;
+  height: 34px;
+  top: 15px;
+  left: 417px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 11;
+}
+.home-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 184px;
+  height: 26px;
+  top: 16px;
+  left: 542px;
+  color: #ffffff;
+  font-family: Jomhuria, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 8;
+}
+.text-box {
+  position: relative;
+  width: 879px;
+  height: 472px;
+  margin: 38px 0 0 83px;
+  background: rgba(22, 21, 18, 0.51);
+  z-index: 1;
+  overflow: visible auto;
+}
+.flex-row-aaa {
+  position: relative;
+  width: 253px;
+  height: 252.151px;
+  margin: 90px 0 0 35px;
+  z-index: 13;
+}
+.motaab {
+  position: absolute;
+  width: 180px;
+  height: 226px;
+  top: 0;
+  left: 34px;
+  background: url(./assets5/images/cafa1bd1-1e89-4d17-96d0-1e6c4a088a7f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 13;
+}
+.whatsapp {
+  position: absolute;
+  
+  top: 100px;
+  left: 110px;
+  background: url(./assets5/images/a22ee54c0c77ae4491febe421d4a94396f43c6a0.png)
+    no-repeat center;
+  background-size: contain;
+  z-index: 6;
+
+  
+}
+.vector {
+  position: absolute;
+  width: 51.295px;
+  height: 46.151px;
+  top: 206px;
+  left: 0;
+  background: url(./assets5/images/6aeb06f6-2884-4d78-be61-e37a61f5efeb.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 3;
+}
+.group {
+  position: relative;
+  width: auto;
+  height: aotauto;
+  margin: 7.849px 0 0 131px;
+  background: url(./assets5/images/cf3bd7c4-8518-4e7d-a0a2-c83c2f6f3072.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 5;
+}
+.background {
+    position: fixed; 
+  width: 100%;     
+  height: 100%; 
+  top: 0;
+  left: 0;
+  background: url(./assets5/images/0e5ac07c2b7aa7928fe0ff017084825197aca000.png)
+    no-repeat center;
+  background-size: cover;
+}
+.form {
+  position: absolute;
+  bottom: 100px; 
+  left: 800px;
+  width: 400px; 
+  padding: 30px;
+  border-radius: 5px;
+  text-align: right;
+  float: right;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column: 2;
+  z-index:6;
+  color: #ffffff;
+}
+
+.form form {
+  width: 100%; 
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.formn button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #eee;
+}
+
+.logo {
+  text-align: center;
+}
+
+
